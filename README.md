@@ -8,9 +8,9 @@ Script auf dem Linux Server als Root wie folg herunterladen:
 
 wget https://github.com/PitbullOL/ARK-Automanagedmods-Easy-Wi/blob/master/automanagedmods.sh
 
-chmod rwx automanagedmods.sh
+chmod rwx------ automanagedmods.sh
 
-und mit dem Befehl:  ./automanagedmods.sh ausführen.
+und mit dem Befehl: ./automanagedmods.sh ausführen.
 
 Masteruser des Gameroot eintragen [ENTER].
 
