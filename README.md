@@ -4,7 +4,13 @@ ARK Automanagedmods Easy-Wi
 
 Für ARK gibt es die automanagedmods Funktion die es erlaubt mods einfach zu installieren/updaten.
 
-Script auf dem Linux Server laden und mit dem Befehl: ./automanagedmods.sh ausführen.
+Script auf dem Linux Server als Root wie folg herunterladen: 
+
+wget https://github.com/PitbullOL/ARK-Automanagedmods-Easy-Wi/blob/master/automanagedmods.sh
+
+chmod +x automanagedmods.sh
+
+und mit dem Befehl: ./automanagedmods.sh ausführen.
 
 Masteruser des Gameroot eintragen [ENTER].
 
