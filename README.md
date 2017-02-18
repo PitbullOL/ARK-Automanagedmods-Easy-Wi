@@ -13,8 +13,11 @@ Done!
 Nun noch die mods in der game.ini wie folgt eintrage:
 
 [ModInstaller]
+
 ModIDS=680481868
+
 ModIDS=682394267
+
 ModIDS=714672786
 
 Die game.ini ist unter: shootergame/saved/config/linuxserver/game.ini zu finden.
