@@ -6,7 +6,7 @@ Für ARK gibt es die automanagedmods Funktion die es erlaubt mods einfach zu ins
 
 Script auf dem Linux Server als Root wie folg herunterladen: 
 
-wget https://github.com/PitbullOL/ARK-Automanagedmods-Easy-Wi/blob/master/automanagedmods.sh
+wget https://raw.githubusercontent.com/PitbullOL/ARK-Automanagedmods-Easy-Wi/master/automanagedmods.sh
 
 chmod +x automanagedmods.sh
 
