@@ -1,5 +1,4 @@
 #!/bin/bash
-
 read -p "Name of Easy-WI Gameroot Masteruser:" MASTERUSER
 echo Masteruser is: $MASTERUSER
 
@@ -14,6 +13,8 @@ curl http://media.steampowered.com/installer/steamcmd_linux.tar.gz > steamcmd.ta
 tar -zxf steamcmd.tar.gz
 
 chmod +x steamcmd.sh
+
+chmod +x /home/$MASTERUSER/masterserver/arkse/Engine/Binaries/ThirdParty/SteamCMD/Linux/linux32/steamcmd
 
 su -c "./steamcmd.sh +login anonymous +quit" $MASTERUSER
 
