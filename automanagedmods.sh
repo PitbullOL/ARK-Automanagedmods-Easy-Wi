@@ -13,6 +13,8 @@ curl http://media.steampowered.com/installer/steamcmd_linux.tar.gz > steamcmd.ta
 
 tar -zxf steamcmd.tar.gz
 
+chmod +x ./steamcmd.sh
+
 su -c "./steamcmd.sh +login anonymous +quit" $MASTERUSER
 
 chown -R $MASTERUSER:$MASTERUSER /home/$MASTERUSER/masterserver/arkse/Engine/Binaries/ThirdParty/SteamCMD
