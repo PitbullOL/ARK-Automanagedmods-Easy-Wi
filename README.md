@@ -32,6 +32,4 @@ Nun noch den Startparameter mit folgendem Befehl ergänzen: -automanagedmods
 
 Und Server Starten.
 
-Nicht Vergessen Proftpd Regeln anzupassen wegen der steamcmd.sh
-
 Viel Spaß ;-)
