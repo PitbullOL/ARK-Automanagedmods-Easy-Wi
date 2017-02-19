@@ -2,7 +2,13 @@
 read -p "Name of Easy-WI Gameroot Masteruser:" MASTERUSER
 echo Masteruser is: $MASTERUSER
 
-cd /home/$MASTERUSER/masterserver/arkse/Engine/Binaries/ThirdParty/SteamCMD
+read -p "Name of Gameserver User:" GSUSER
+echo Masteruser is: $MASTERUSER
+
+read -p "Name of Gameserver Template:" GSTEMP
+echo Masteruser is: $MASTERUSER
+
+cd /home/$GSUSER/server/*/$GSTEMP/Engine/Binaries/ThirdParty/SteamCMD
 
 mkdir Linux
 
@@ -14,10 +20,10 @@ tar -zxf steamcmd.tar.gz
 
 chmod +x steamcmd.sh
 
-chmod +x /home/$MASTERUSER/masterserver/arkse/Engine/Binaries/ThirdParty/SteamCMD/Linux/linux32/steamcmd
+chmod +x /home/$GSUSER/server/*/$GSTEMP/Engine/Binaries/ThirdParty/SteamCMD/Linux/linux32/steamcmd
 
-su -c "./steamcmd.sh +login anonymous +quit" $MASTERUSER
+su -c "./steamcmd.sh +login anonymous +quit" $GSUSER
 
-chown -R $MASTERUSER:$MASTERUSER /home/$MASTERUSER/masterserver/arkse/Engine/Binaries/ThirdParty/SteamCMD
+chown -R $GSUSER:$MASTERUSER /home/$GSUSER/server/*/$GSTEMP/Engine/Binaries/ThirdParty/SteamCMD
 
 echo -e "\e[32mDone!"

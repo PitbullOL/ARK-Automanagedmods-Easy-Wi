@@ -10,9 +10,7 @@ wget https://raw.githubusercontent.com/PitbullOL/ARK-Automanagedmods-Easy-Wi/mas
 
 chmod +x automanagedmods.sh
 
-und mit dem Befehl: ./automanagedmods.sh ausführen.
-
-Masteruser des Gameroot eintragen [ENTER].
+und mit dem Befehl: ./automanagedmods.sh ausführen und den Anweisungen folgen.
 
 Done!
 
